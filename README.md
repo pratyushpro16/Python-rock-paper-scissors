@@ -44,7 +44,7 @@ elif y==1:
     print(scissors)
 else:
     print(paper)
-if x==y:
+if x==0 and y==1 or x==1 and y==2 or x==2 and x==2 or y==0 and y==0:
     print("you win")
 else:
     print("you lose")
